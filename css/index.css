@@ -1,0 +1,129 @@
+body{
+  background-color: #555353bb;
+}
+.container{
+  width: 800px;
+  height: 800px;
+  box-sizing: border-box;
+  padding: 30px;
+  margin: 80px auto;
+  background-image: url(../images/todolist.jpg);
+}
+.container_header{
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+.fa-book{
+  padding-right: 13px;
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+}
+.header_text{
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+}
+.searchBox{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.searchBtn.btn-all{  
+  color: ivory;
+  background-color: rgba(245, 245, 220, 0.247);
+}
+.searchBtn.btn-before{  
+  color: ivory;
+  background-color: rgba(245, 245, 220, 0.178);
+}
+.searchBtn.btn-after{  
+  color: ivory;
+  background-color: rgba(245, 245, 220, 0.178);
+}
+.searchBtn{
+  margin-right: 25px;
+  width: 120px;
+  height: 30px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+}
+.searchBtn:hover{
+  background-color: rgba(255, 0, 0, 0.349);
+}
+.addBox_inner{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+
+}
+.addTxt{
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid rgb(204, 201, 201);
+  outline: none;
+  font-size: 20px;
+  color: white;
+  /* background-color: rgba(245, 245, 220, 0.178); */
+  background-color: transparent;
+}
+.addBtn{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.addBtn .fa-circle-plus{
+  border-radius: 50%;
+  font-size: 25px;
+  color: aliceblue;
+}
+.fa-circle-plus:hover{
+  background-color: rgba(255, 0, 0, 0.507);
+}
+
+.allCheckBox{ 
+
+}
+.allCheckBox .allSelect_lb{
+  color: white;
+  font-size: 15px;
+  margin-right: 10px;
+}
+.allCheckBox .allDel{
+  color: white;
+  font-size: 15px;
+}
+
+.listBox_container{
+  width: 100%;
+  height: 280px;
+  margin: 20px 0;
+  overflow: auto;
+  font-size: 20px;
+}
+.listBox_list{
+}
+.listBox_content{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+
+}
+.check-list{
+  /* margin: 10px auto; */ 
+
+} 
+.delBtn{
+  font-size: 20px;
+  color: white;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
