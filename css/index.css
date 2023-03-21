@@ -106,20 +106,27 @@ body{
   overflow: auto;
   font-size: 20px;
 }
+.listBox_container::-webkit-scrollbar{
+  display: none;
+}
 .listBox_list{
 }
 .listBox_content{
   display: flex;
   justify-content: space-between;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 500;
   color: white;
-
 }
 .check-list{
-  /* margin: 10px auto; */ 
-
+  width: 17px;
+  height: 17px;
 } 
+.listContent{
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+}
 .delBtn{
   font-size: 20px;
   color: white;
