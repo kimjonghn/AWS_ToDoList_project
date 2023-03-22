@@ -94,7 +94,7 @@ body{
   font-size: 15px;
   margin-right: 10px;
 }
-.allCheckBox .allDel{
+.allCheckBox .selectDel{
   color: white;
   font-size: 15px;
 }
@@ -122,6 +122,12 @@ body{
   width: 17px;
   height: 17px;
 } 
+.check-list[type="checkbox"]:checked + .listContent{
+  text-decoration: line-through;
+  text-decoration-color: black;
+  color: red;
+}
+
 .listContent{
   font-size: 24px;
   font-weight: 500;
